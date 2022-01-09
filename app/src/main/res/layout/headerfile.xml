@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/home"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginTop="10dp"
+        android:text="Future Home"
+        android:textColor="#F6774F"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/audiowide"
+        android:layout_marginTop="10dp"
+        android:text="Feel the luxury"
+        android:textColor="#F6774F"
+        android:textSize="17sp" />
+
+</LinearLayout>

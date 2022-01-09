@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/dashboard_menu"
+            android:icon="@drawable/ic_baseline_dashboard"
+            android:title="Dashboard"/>
+
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:title="Profile"/>
+
+        <item android:id="@+id/settings"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="Settings"/>
+
+        <item android:id="@+id/logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out"/>
+
+    </group>
+
+
+        <item android:title="Sharing">
+
+            <menu>
+
+                <item android:id="@+id/share"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Share"/>
+
+                <item android:id="@+id/reffer"
+                    android:icon="@drawable/ic_baseline_share_24"
+                    android:title="Reffer"/>
+
+
+            </menu>
+
+        </item>
+
+
+
+</menu>
